@@ -5,6 +5,9 @@
     outline: 0;
 }
 
+header {
+    background-color: #000;
+}
 
 #home {
     width: 100%;
@@ -15,7 +18,7 @@
 .fportalImg {
     width: 400px;
     position: absolute;
-    top: 30%;
+    top: 40%;
 }
 
 .fourImg {
@@ -32,7 +35,7 @@ span {
 
 .social {
     position: absolute;
-    top: 50%;
+    top: 55%;
 }
 
 a {
@@ -48,4 +51,20 @@ i {
 
 i>img {
     width: 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .fportalImg {
+        width: 300px;
+    }
+
+    .social {
+        position: absolute;
+        top: 55%;
+    }
+
+    a {
+        margin: 0 20px;
+    }
 }
